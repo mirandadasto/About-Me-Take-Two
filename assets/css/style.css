@@ -1,48 +1,56 @@
-body {
-    background-color: lightgray;
+
+.background {
+    background-color: lightgrey;
 }
 
 header {
-    background-color: #4aaaa5;
-    color: white;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 30px;
-    float: Left;
-    padding: 20px;
+    background-color: #ffffff;
+    padding: 40px;
     border-bottom: solid;
     border-color: #cccccc;
-    position: relative;
-    left: 15%;
+    margin-bottom: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 30px;
     font-weight: bold;
+    float: left;
+    position: absolute;
 }
 
 nav {
-    font-family: 'Georgia', Times, Times New Roman, serif;
     color:#cccccc;
     float: right;
+    
 }
 
 .container {
     background-color: lightgray;
-    width: 960px;
-    margin: 0 auto;
     float: relative;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     clear: both;
 }
 
-.row h2 {
+.row {
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.aboutMe .row {
+    border-bottom: solid;
+    border-color: #cccccc;
+}
+
+h2 {
     color:#4aaaa5;
     font-weight: bold;
-    margin: 20px;
-    padding: 10px;
-    z-index: 1;
-    border-bottom: solid;
     border-color: #cccccc;
     font-size: 30px;
 }
 
-.row {
+.bio .row {
     background-color: #ffffff;
 }
 
@@ -50,14 +58,8 @@ img {
     display: block;
     width: 30%;
     float: left;
-    margin: 20px;
+    padding: 0px 10px 10px 0px;
 }
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
 
 footer {
     background-color: #666666;
@@ -69,4 +71,5 @@ footer {
     color: black;
     text-align: center;
     color: #ffffff;
+    margin-top: 60px;
 }
