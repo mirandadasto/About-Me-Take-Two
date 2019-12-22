@@ -17,12 +17,17 @@ h1 {
     font-size: 30px;
     font-weight: bold;
     float: left;
-    position: absolute;
+    position: relative;
+    padding: 10px;
+    top: -27px;
+    left: 9%;
 }
 
 nav {
     color:#cccccc;
     float: right;
+    position: relative;
+    right: 10
     
 }
 
@@ -54,11 +59,19 @@ h2 {
     background-color: #ffffff;
 }
 
+p {
+    color: grey;
+}
+
 img {
     display: block;
     width: 30%;
     float: left;
     padding: 0px 10px 10px 0px;
+}
+
+.clearfix {
+    overflow: auto;
 }
 
 footer {
