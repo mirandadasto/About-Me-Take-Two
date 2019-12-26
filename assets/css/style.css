@@ -2,8 +2,9 @@
 .background {
     background-image: url("assets/images/textured_paper.png");
     background-repeat: no-repeat;
-    background-color: #cccccc;
-    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: #e9e5e5;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
     border-bottom: solid;
     border-color: #cccccc;
     margin-bottom: 20px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, Times, serif;
 }
 h1 {
     background-color: #4aaaa5;
@@ -23,15 +24,13 @@ h1 {
     position: relative;
     padding: 10px;
     top: -27px;
-    left: 9%;
+    left: 10%;
 }
 
 nav {
     color:#cccccc;
     float: right;
     position: relative;
-    right: 10
-    
 }
 
 .container {
