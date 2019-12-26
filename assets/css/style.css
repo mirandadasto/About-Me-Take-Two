@@ -1,6 +1,9 @@
 
 .background {
-    background-color: lightgrey;
+    background-image: url("assets/images/textured_paper.png");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-size: cover;
 }
 
 header {
@@ -33,7 +36,7 @@ nav {
 
 .container {
     background-color: lightgray;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, Helvetica, sans-serif;
     clear: both;
     width: 960px;
     margin: 0 auto;
@@ -120,5 +123,6 @@ input {
     padding: 6px;
     position: relative;
     top: -50px;
+    text-align: center;
 }
 
