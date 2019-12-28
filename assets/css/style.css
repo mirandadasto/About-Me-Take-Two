@@ -33,6 +33,22 @@ nav {
     position: relative;
 }
 
+a:link {
+    color:#cccccc;
+}
+
+a:visited {
+    color: #4aaaa5;
+}
+
+a:hover {
+    color: rgb(230, 178, 188);
+}
+
+a:active {
+    color: lightskyblue;
+}
+
 .container {
     background-color: lightgray;
     font-family: Arial, Helvetica, Helvetica, sans-serif;
