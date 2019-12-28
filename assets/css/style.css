@@ -33,20 +33,19 @@ nav {
     position: relative;
 }
 
-a:link {
-    color:#cccccc;
-}
-
-a:visited {
-    color: #4aaaa5;
+a:link, a:visited {
+    color:#4aaaa5;
+    text-decoration: none;
 }
 
 a:hover {
     color: rgb(230, 178, 188);
+    text-decoration: none;
 }
 
 a:active {
     color: lightskyblue;
+    text-decoration: none;
 }
 
 .container {
