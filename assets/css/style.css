@@ -61,6 +61,14 @@ a:active {
     padding: 15px;
 }
 
+.aboveFooter .row {
+    background-image: url("../images/textured_paper.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: #e9e5e5;
+}
+
 .aboutMe .row {
     border-bottom: solid;
     border-color: #cccccc;
@@ -68,7 +76,7 @@ a:active {
 
 h2 {
     color:#4aaaa5;
-    font-weight: bold;
+    font-weight: bolder;
     border-color: #cccccc;
     font-size: 30px;
 }
